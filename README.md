@@ -26,21 +26,6 @@ npm run build
 npm run start
 ```
 
-## Deploy na Vercel
-
-1. Suba este repositório para o GitHub.
-2. Em [vercel.com/new](https://vercel.com/new), importe o repositório.
-3. Framework preset "Next.js" é detectado automaticamente — nenhuma variável
-   de ambiente ou configuração adicional é necessária.
-4. Deploy.
-
-Ou, com a Vercel CLI:
-
-```bash
-npm i -g vercel
-vercel
-```
-
 ## Como o risco funciona
 
 Cada região tem uma leitura base de chuva/vento e um limiar de alagamento

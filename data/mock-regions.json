@@ -1,0 +1,252 @@
+[
+  {
+    "id": "meleiro",
+    "name": "Meleiro (zona rural do Rio Manim)",
+    "center": [-28.8256, -49.6772],
+    "polygon": [
+      [-28.8100, -49.6950],
+      [-28.8050, -49.6790],
+      [-28.8140, -49.6620],
+      [-28.8330, -49.6560],
+      [-28.8470, -49.6650],
+      [-28.8500, -49.6830],
+      [-28.8380, -49.6960],
+      [-28.8220, -49.7010]
+    ],
+    "rainfall_mm": 42,
+    "wind_kmh": 14,
+    "terrain": "planície de arroz irrigado às margens do Rio Manim",
+    "flood_threshold_mm": 70,
+    "wind_threshold_kmh": 34,
+    "suggested_drainage": [
+      {
+        "id": "mel-1",
+        "path": [
+          [-28.8190, -49.6900],
+          [-28.8230, -49.6820],
+          [-28.8290, -49.6760]
+        ],
+        "description": "Canal de drenagem entre arrozeiras, escoamento para o Rio Manim",
+        "priority": "critico"
+      }
+    ]
+  },
+  {
+    "id": "turvo",
+    "name": "Turvo (área rural)",
+    "center": [-28.9278, -49.6817],
+    "polygon": [
+      [-28.9110, -49.7010],
+      [-28.9040, -49.6870],
+      [-28.9090, -49.6650],
+      [-28.9260, -49.6560],
+      [-28.9430, -49.6640],
+      [-28.9480, -49.6820],
+      [-28.9370, -49.6980],
+      [-28.9210, -49.7040]
+    ],
+    "rainfall_mm": 38,
+    "wind_kmh": 12,
+    "terrain": "lavoura de arroz e criação de gado, margem do Rio Turvo",
+    "flood_threshold_mm": 85,
+    "wind_threshold_kmh": 38,
+    "suggested_drainage": [
+      {
+        "id": "tur-1",
+        "path": [
+          [-28.9200, -49.6920],
+          [-28.9260, -49.6840],
+          [-28.9330, -49.6790]
+        ],
+        "description": "Valeta de escoamento na estrada rural que corta as arrozeiras",
+        "priority": "alto"
+      }
+    ]
+  },
+  {
+    "id": "ermo",
+    "name": "Ermo (encosta rural)",
+    "center": [-28.8747, -49.6208],
+    "polygon": [
+      [-28.8600, -49.6360],
+      [-28.8550, -49.6230],
+      [-28.8630, -49.6080],
+      [-28.8790, -49.6040],
+      [-28.8900, -49.6150],
+      [-28.8880, -49.6320],
+      [-28.8750, -49.6390]
+    ],
+    "rainfall_mm": 30,
+    "wind_kmh": 10,
+    "terrain": "encosta rural com pequenas propriedades e cultivo de mandioca",
+    "flood_threshold_mm": 110,
+    "wind_threshold_kmh": 42,
+    "suggested_drainage": [
+      {
+        "id": "erm-1",
+        "path": [
+          [-28.8690, -49.6280],
+          [-28.8740, -49.6220],
+          [-28.8770, -49.6150]
+        ],
+        "description": "Curva de nível e valeta de contenção em encosta agrícola",
+        "priority": "medio"
+      }
+    ]
+  },
+  {
+    "id": "morro-grande",
+    "name": "Morro Grande (área rural de encosta)",
+    "center": [-28.7444, -49.7256],
+    "polygon": [
+      [-28.7280, -49.7420],
+      [-28.7230, -49.7280],
+      [-28.7330, -49.7130],
+      [-28.7500, -49.7100],
+      [-28.7610, -49.7230],
+      [-28.7570, -49.7400],
+      [-28.7430, -49.7480]
+    ],
+    "rainfall_mm": 26,
+    "wind_kmh": 9,
+    "terrain": "encosta rural, produção de fumo e mandioca",
+    "flood_threshold_mm": 130,
+    "wind_threshold_kmh": 45,
+    "suggested_drainage": [
+      {
+        "id": "mgr-1",
+        "path": [
+          [-28.7380, -49.7350],
+          [-28.7430, -49.7290],
+          [-28.7470, -49.7220]
+        ],
+        "description": "Manutenção de valeta de terra em estrada de acesso às lavouras de fumo",
+        "priority": "baixo"
+      }
+    ]
+  },
+  {
+    "id": "nova-veneza",
+    "name": "Nova Veneza (vale rural)",
+    "center": [-28.6461, -49.4964],
+    "polygon": [
+      [-28.6300, -49.5140],
+      [-28.6240, -49.4990],
+      [-28.6330, -49.4830],
+      [-28.6500, -49.4780],
+      [-28.6630, -49.4900],
+      [-28.6600, -49.5080],
+      [-28.6460, -49.5170]
+    ],
+    "rainfall_mm": 34,
+    "wind_kmh": 13,
+    "terrain": "vale rural vinícola, margens do Rio Cocal",
+    "flood_threshold_mm": 120,
+    "wind_threshold_kmh": 36,
+    "suggested_drainage": [
+      {
+        "id": "nvn-1",
+        "path": [
+          [-28.6400, -49.5060],
+          [-28.6450, -49.4990],
+          [-28.6510, -49.4930]
+        ],
+        "description": "Canal de drenagem entre parreirais próximo ao Rio Cocal",
+        "priority": "medio"
+      }
+    ]
+  },
+  {
+    "id": "forquilhinha",
+    "name": "Forquilhinha (planície rural)",
+    "center": [-28.7397, -49.4728],
+    "polygon": [
+      [-28.7230, -49.4900],
+      [-28.7170, -49.4760],
+      [-28.7260, -49.4600],
+      [-28.7430, -49.4550],
+      [-28.7560, -49.4670],
+      [-28.7540, -49.4850],
+      [-28.7390, -49.4930]
+    ],
+    "rainfall_mm": 40,
+    "wind_kmh": 15,
+    "terrain": "planície rural pós-mineração de carvão, lavoura de arroz",
+    "flood_threshold_mm": 90,
+    "wind_threshold_kmh": 37,
+    "suggested_drainage": [
+      {
+        "id": "frq-1",
+        "path": [
+          [-28.7320, -49.4830],
+          [-28.7370, -49.4760],
+          [-28.7420, -49.4700]
+        ],
+        "description": "Recuperação de canal de drenagem em área de mineração desativada",
+        "priority": "alto"
+      }
+    ]
+  },
+  {
+    "id": "sombrio",
+    "name": "Sombrio (baixada rural costeira)",
+    "center": [-29.1094, -49.6236],
+    "polygon": [
+      [-29.0930, -49.6420],
+      [-29.0870, -49.6260],
+      [-29.0960, -49.6080],
+      [-29.1140, -49.6020],
+      [-29.1280, -49.6150],
+      [-29.1260, -49.6350],
+      [-29.1120, -49.6450]
+    ],
+    "rainfall_mm": 46,
+    "wind_kmh": 18,
+    "terrain": "baixada rural costeira, arrozeiras e canais de drenagem",
+    "flood_threshold_mm": 75,
+    "wind_threshold_kmh": 32,
+    "suggested_drainage": [
+      {
+        "id": "som-1",
+        "path": [
+          [-29.1030, -49.6360],
+          [-29.1080, -49.6280],
+          [-29.1140, -49.6210]
+        ],
+        "description": "Reforço do canal de drenagem principal entre arrozeiras e o mar",
+        "priority": "critico"
+      }
+    ]
+  },
+  {
+    "id": "praia-grande",
+    "name": "Praia Grande (cabeceira rural de montanha)",
+    "center": [-29.1897, -49.9469],
+    "polygon": [
+      [-29.1730, -49.9640],
+      [-29.1670, -49.9490],
+      [-29.1770, -49.9330],
+      [-29.1950, -49.9280],
+      [-29.2070, -49.9420],
+      [-29.2040, -49.9600],
+      [-29.1890, -49.9680]
+    ],
+    "rainfall_mm": 20,
+    "wind_kmh": 8,
+    "terrain": "área rural montanhosa, cabeceira do Rio Mampituba, pecuária",
+    "flood_threshold_mm": 160,
+    "wind_threshold_kmh": 50,
+    "suggested_drainage": [
+      {
+        "id": "prg-1",
+        "path": [
+          [-29.1830, -49.9560],
+          [-29.1880, -49.9500],
+          [-29.1930, -49.9440]
+        ],
+        "description": "Valeta de contorno em estrada rural de acesso às pastagens",
+        "priority": "baixo"
+      }
+    ]
+  }
+]
